@@ -1,0 +1,55 @@
+🔔 How to Set Up Push Notifications in FluffyChat without Google Services
+Push notifications are a great way to make sure you don't miss important messages in FluffyChat. For users who do not use Google Services (for example Huawei Phones, Amazon Fire tablets or custom roms), setting up push notifications is slightly different.
+
+FluffyChat attempts to set up push notifications automatically every time you launch the app. However, if you do not have Google Services on your device, you may receive an error message. In this case, it is necessary to use the an UnifiedPush app such as Ntfy, UP-FCM Distributor (Google) or Conversations.
+
+Table of Contents
+
+Using Ntfy
+🏪 Step 1: Installing and Setting Up ntfy
+🔋 Step 2: Deactivate Battery Optimization for ntfy
+✅ Step 3: Checking Push Configuration in FluffyChat
+🥳 Step 4: Receiving Push Notifications
+Using Conversations
+Using Ntfy
+In this article, we'll show you how to configure push notifications on your Android device using the ntfy app.
+
+🏪 Step 1: Installing and Setting Up ntfy
+If you already have FluffyChat installed but are not receiving push notifications, close the app completely (by swiping it away in the overview) and open the PlayStore (or F-Droid) on your Android device.
+
+Search for the app ntfy and install it.
+
+After installing ntfy, open the app at least once.
+
+Now, return to FluffyChat and open the app.
+
+🔋 Step 2: Deactivate Battery Optimization for ntfy
+To ensure that FluffyChat can reliably send push notifications, it's important to deactivate battery optimization for the "ntfy" app.
+
+Go to the [Android settings] on your device.
+
+Look for "Apps" or "Applications" and select "ntfy" from the list of installed apps.
+
+Tap on "Battery" and select "Battery optimization."
+
+In the list of apps exempted from battery optimization, make sure "ntfy" is selected.
+
+✅ Step 3: Checking Push Configuration in FluffyChat
+Open FluffyChat and navigate to the [Settings].
+
+Choose "Notifications" from the menu.
+
+In the notification settings, you'll see a list of "Pushers." The "Pusher" for "ntfy" should be at the bottom of the list.
+
+🥳 Step 4: Receiving Push Notifications
+To ensure that everything is set up correctly, ask a friend to send you a message in FluffyChat and check if you receive a push notification.
+
+Using Conversations
+If you are using XMPP in addition to Matrix and already have Conversations configured, you can follow these steps to get FluffyChat push notifications through it:
+
+Open Conversations.
+Touch the three dots on top right.
+Select Settings and scroll down to UnifiedPush Distributor.
+Touch XMPP account and select the XMPP account you wish to receive notifications through.
+Open FluffyChat. If it doesn't offer to receive notifications through Conversations, check the notification settings (see step 3 for Ntfy above).
+Following these steps should successfully set up push notifications in FluffyChat for users without Google Services. If you are interested in hosting your own push service, you can take a look at unifiedpush.org.
