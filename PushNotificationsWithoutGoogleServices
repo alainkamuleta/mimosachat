@@ -1,7 +1,8 @@
-🔔 How to Set Up Push Notifications in FluffyChat without Google Services
-Push notifications are a great way to make sure you don't miss important messages in FluffyChat. For users who do not use Google Services (for example Huawei Phones, Amazon Fire tablets or custom roms), setting up push notifications is slightly different.
+🔔 How to Set Up Push Notifications in MimosaChat without Google Services ?
 
-FluffyChat attempts to set up push notifications automatically every time you launch the app. However, if you do not have Google Services on your device, you may receive an error message. In this case, it is necessary to use the an UnifiedPush app such as Ntfy, UP-FCM Distributor (Google) or Conversations.
+Push notifications are a great way to make sure you don't miss important messages in MimosaChat. For users who do not use Google Services (for example Huawei Phones, Amazon Fire tablets or custom roms), setting up push notifications is slightly different.
+
+MimosaChat attempts to set up push notifications automatically every time you launch the app. However, if you do not have Google Services on your device, you may receive an error message. In this case, it is necessary to use the an UnifiedPush app such as Ntfy, UP-FCM Distributor (Google) or Conversations.
 
 Table of Contents
 
