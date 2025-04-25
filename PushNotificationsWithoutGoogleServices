@@ -11,3 +11,37 @@ Using Ntfy
 ✅ Step 3: Checking Push Configuration in FluffyChat
 🥳 Step 4: Receiving Push Notifications
 Using Conversations
+
+Using Ntfy
+In this article, we'll show you how to configure push notifications on your Android device using the ntfy app.
+
+🏪 Step 1: Installing and Setting Up ntfy
+If you already have FluffyChat installed but are not receiving push notifications, close the app completely (by swiping it away in the overview) and open the PlayStore (or F-Droid) on your Android device.
+
+Search for the app ntfy and install it.
+
+After installing ntfy, open the app at least once.
+
+Now, return to FluffyChat and open the app.
+
+🔋 Step 2: Deactivate Battery Optimization for ntfy
+To ensure that FluffyChat can reliably send push notifications, it's important to deactivate battery optimization for the "ntfy" app.
+
+Go to the [Android settings] on your device.
+
+Look for "Apps" or "Applications" and select "ntfy" from the list of installed apps.
+
+Tap on "Battery" and select "Battery optimization."
+
+In the list of apps exempted from battery optimization, make sure "ntfy" is selected.
+
+✅ Step 3: Checking Push Configuration in FluffyChat
+Open FluffyChat and navigate to the [Settings].
+
+Choose "Notifications" from the menu.
+
+In the notification settings, you'll see a list of "Pushers." The "Pusher" for "ntfy" should be at the bottom of the list.
+
+🥳 Step 4: Receiving Push Notifications
+To ensure that everything is set up correctly, ask a friend to send you a message in FluffyChat and check if you receive a push notification.
+
