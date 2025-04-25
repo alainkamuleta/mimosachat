@@ -26,7 +26,7 @@ After installing ntfy, open the app at least once.
 Now, return to FluffyChat and open the app.
 
 🔋 Step 2: Deactivate Battery Optimization for ntfy
-To ensure that FluffyChat can reliably send push notifications, it's important to deactivate battery optimization for the "ntfy" app.
+To ensure that MimosaChat can reliably send push notifications, it's important to deactivate battery optimization for the "ntfy" app.
 
 Go to the [Android settings] on your device.
 
@@ -37,12 +37,22 @@ Tap on "Battery" and select "Battery optimization."
 In the list of apps exempted from battery optimization, make sure "ntfy" is selected.
 
 ✅ Step 3: Checking Push Configuration in FluffyChat
-Open FluffyChat and navigate to the [Settings].
+Open MimosaChat and navigate to the [Settings].
 
 Choose "Notifications" from the menu.
 
 In the notification settings, you'll see a list of "Pushers." The "Pusher" for "ntfy" should be at the bottom of the list.
 
 🥳 Step 4: Receiving Push Notifications
-To ensure that everything is set up correctly, ask a friend to send you a message in FluffyChat and check if you receive a push notification.
+To ensure that everything is set up correctly, ask a friend to send you a message in MimosaChat and check if you receive a push notification.
 
+Using Conversations
+If you are using XMPP in addition to Matrix and already have Conversations configured, you can follow these steps to get FluffyChat push notifications through it:
+
+Open Conversations.
+Touch the three dots on top right.
+Select Settings and scroll down to UnifiedPush Distributor.
+Touch XMPP account and select the XMPP account you wish to receive notifications through.
+Open MimosaChat. If it doesn't offer to receive notifications through Conversations, check the notification settings (see step 3 for Ntfy above).
+
+Following these steps should successfully set up push notifications in FluffyChat for users without Google Services. If you are interested in hosting your own push service, you can take a look at unifiedpush.org.
