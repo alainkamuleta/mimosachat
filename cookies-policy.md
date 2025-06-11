@@ -1,4 +1,5 @@
-Politique relative aux cookies
+<H2>Politique relative aux cookies</H2>
+
 1. Notre approche en matière d'analyse et de cookies
 Mimosa Web utilise des cookies et d'autres techniques de stockage pour prendre en charge les fonctionnalités clés des applications et améliorer votre expérience sur les applications et le site web Mimosa.
 
