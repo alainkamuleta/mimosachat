@@ -2,13 +2,13 @@
 
 MumosaChat is available on Android, iOS, Linux and as a web version. Desktop versions for Windows and macOS may follow.
 
-*   [Matrix](#matrix)
+*   [Mimosa](#mimosa)
 *   [Database](#database)
 *   [Encryption](#encryption)
 *   [App Permissions](#app-permissions)
 *   [Push Notifications](#push-notifications)
 
-## Matrix<a id="matrix"/>
+## Mimosa<a id="mimosa"/>
 MumosaChat uses the Matrix protocol. This means that MumosaChat is just a client that can be connected to any compatible matrix server. The respective data protection agreement of the server selected by the user then applies.
 
 For convenience, one or more servers are set as default that the MumosaChat developers consider trustworthy. The developers of MumosaChat do not guarantee their trustworthiness. Before the first communication, users are informed which server they are connecting to.
@@ -32,7 +32,7 @@ MumosaChat also uses End-To-End-Encryption by using [libolm](https://gitlab.matr
 The permissions are the same on Android and iOS but may differ in the name. This are the Android Permissions:
 
 #### Internet Access
-MumosaChat needs to have internet access to communicate with the Matrix Server.
+MumosaChat needs to have internet access to communicate with the Mimosa Matrix Server.
 
 #### Vibrate
 MumosaChat uses vibration for local notifications. More informations about this are at the used package:
@@ -78,7 +78,7 @@ A typical push notification could look like this:
     },
     "devices": [
       {
-        "app_id": "chat.exactelis.com",
+        "app_id": "synapse.exactelis.net",
         "pushkey": "V2h5IG9uIGVhcnRoIGRpZCB5b3UgZGVjb2RlIHRoaXM/",
         "pushkey_ts": 12345678,
         "data": {},
